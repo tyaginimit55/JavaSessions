@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static int x=15;
-    public static void main(String[] args) {
+        public static void main(String[] args) {
 
         System.out.println("Hello world!");
 
@@ -13,7 +13,11 @@ public class Main {
         int sub1 = scanner.nextInt();
         int sub2 = scanner.nextInt();
         int result = sum(sub1,sub2);
+
+            System.out.println("-------------" +sum(10, 10, 20));
         System.out.println(result);
+
+            System.out.println("-------------overloaded string " +sum("a", "b"));
 
         /*if(result>60){
             System.out.println("first div");
@@ -61,17 +65,29 @@ public class Main {
            x[i] = scanner.nextInt();
        }
         System.out.println(x);
-        for (int i=0;i<5;i++){
+       int count = x.length;
+       for (int i=0; i<=count ;i++){
+           System.out.println("traverse with count " + x[i]);
+       }
+        /*for (int i=0;i<5;i++){
             System.out.println("native for loop for array traverse");
             System.out.println(x[i]);
         }
         for (int val: x) {
             System.out.println("for each " + val);
-        }
+        }*/
 
 
     }
     public static int sum(int a, int b){
        return a +b;
+    }
+    //overloaded sum
+    public static int sum(int a, int b, int c){
+        return a+b+c;
+    }
+
+    public static String sum(String a, String b){
+        return a+b;
     }
 }
