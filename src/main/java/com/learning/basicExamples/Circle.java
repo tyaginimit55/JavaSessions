@@ -1,4 +1,4 @@
-package com.learning;
+package com.learning.basicExamples;
 
 public class Circle {
     private int area;

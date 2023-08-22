@@ -1,4 +1,6 @@
-package com.learning;
+package com.learning.basicExamples;
+
+import com.learning.basicExamples.Circle;
 
 public class Shape extends Circle {
 
