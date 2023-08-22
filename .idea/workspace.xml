@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a269aeb-afa0-4b2e-83d5-3aa8ba6d195b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/shapesHierarchy/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/shapesHierarchy/Drawable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/shapesHierarchy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/shapesHierarchy/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/shapesHierarchy/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/collections/CollectionsPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/basicExamples/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/HierarchicalInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/basicExamples/HierarchicalInheritance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/basicExamples/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/basicExamples/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +41,20 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.com.learning.shapesHierarchy.Main">
+  <component name="RunManager" selected="Application.CollectionsPractice">
+    <configuration name="CollectionsPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.learning.collections.CollectionsPractice" />
+      <module name="JavaSessions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learning.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
       <option name="MAIN_CLASS_NAME" value="com.learning.basicExamples.Main" />
@@ -93,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionsPractice" />
         <item itemvalue="Application.com.learning.shapesHierarchy.Main" />
       </list>
     </recent_temporary>
@@ -108,6 +113,7 @@
       <workItem from="1692277113262" duration="5269000" />
       <workItem from="1692375558737" duration="5212000" />
       <workItem from="1692633831357" duration="4927000" />
+      <workItem from="1692717690480" duration="4968000" />
     </task>
     <servers />
   </component>
