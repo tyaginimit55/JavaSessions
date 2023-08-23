@@ -74,7 +74,7 @@ public class CollectionsPractice {
         }
 */
 
-        TreeSet<String> treeSet = new TreeSet<>();
+        /*TreeSet<String> treeSet = new TreeSet<>();
         Set syncedSet = Collections.synchronizedSet(treeSet);
         treeSet.add("ts val 2");
         treeSet.add("ts val 1");
@@ -88,6 +88,68 @@ public class CollectionsPractice {
         Iterator iterator = treeSet.iterator();
         while (iterator.hasNext()) {
             System.out.println("tree set " + iterator.next());
+        }*/
+
+       /* LinkedHashSet<String > linkedHashSet = new LinkedHashSet<>();
+        linkedHashSet.add("Linked Hash Set 3");
+        linkedHashSet.add("Linked Hash Set 2");
+        linkedHashSet.add("Linked Hash Set 1");
+        linkedHashSet.add(null);
+
+        Iterator iterator = linkedHashSet.iterator();
+        while (iterator.hasNext()){
+            System.out.println("Itertaor Printing on console  " + iterator.next());
         }
+*/
+
+        /*PriorityQueue<String> priorityQueue = new PriorityQueue<>();
+        priorityQueue.add("pq 1");
+        priorityQueue.add("pq 2");
+        priorityQueue.add("pq 3");
+        priorityQueue.add("pq 4");
+
+        System.out.println("head element " + priorityQueue.element());
+
+        //priorityQueue.poll();
+        System.out.println("peek head element " + priorityQueue.peek());
+
+        priorityQueue.remove("pq 3");
+        System.out.println("peek head element " + priorityQueue.peek());
+
+        Iterator iterator = priorityQueue.iterator();
+        while (iterator.hasNext()){
+            System.out.println("Prioirty Queue " + iterator.next());
+        }
+*/
+
+        /*ArrayDeque<String> arrayDeque = new ArrayDeque<>();
+        arrayDeque.add("arr Deque 2");
+        arrayDeque.add("arr Deque 3");
+        arrayDeque.add("arr Deque 1");
+
+        Iterator iterator2 = arrayDeque.descendingIterator();
+        while (iterator2.hasNext()){
+            System.out.println("descending " + iterator2.next());
+        }
+
+
+        Iterator iterator = arrayDeque.iterator();
+        while (iterator.hasNext()){
+            System.out.println("+++++ " + iterator.next());
+        }*/
+
+        Map <Integer, String> map = new HashMap<Integer, String>();
+        map.put(1, "a");
+        map.put(2, "b");
+        map.put(1, "c");
+        map.put(4, null);
+        map.put(null, null);
+        map.replace(1, "e");
+        map.remove(4, null);
+
+        for (Map.Entry entry: map.entrySet() ) {
+            System.out.println("key " + entry.getKey() + " value " + entry.getValue());
+        }
+
     }
 }
