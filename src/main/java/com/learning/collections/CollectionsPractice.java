@@ -1,6 +1,7 @@
 package com.learning.collections;
 
 import java.util.*;
+import java.util.stream.Stream;
 
 public class CollectionsPractice {
 
@@ -127,6 +128,7 @@ public class CollectionsPractice {
         arrayDeque.add("arr Deque 3");
         arrayDeque.add("arr Deque 1");
 
+
         Iterator iterator2 = arrayDeque.descendingIterator();
         while (iterator2.hasNext()){
             System.out.println("descending " + iterator2.next());
@@ -138,7 +140,7 @@ public class CollectionsPractice {
             System.out.println("+++++ " + iterator.next());
         }*/
 
-        Map <Integer, String> map = new HashMap<Integer, String>();
+        /*Map <Integer, String> map = new HashMap<Integer, String>();
         map.put(1, "a");
         map.put(2, "b");
         map.put(1, "c");
@@ -149,6 +151,55 @@ public class CollectionsPractice {
 
         for (Map.Entry entry: map.entrySet() ) {
             System.out.println("key " + entry.getKey() + " value " + entry.getValue());
+        }
+*/
+        /*HashMap <Integer, String> map = new HashMap<>();
+        map.put(1, "a");
+        map.put(2, "b");
+        map.put(1, "c");
+        map.put(4, null);
+        map.put(null, null);
+        map.replace(1, "e");
+        map.remove(4, null);
+
+        for (Map.Entry entry: map.entrySet() ) {
+            System.out.println("key " + entry.getKey() + " value " + entry.getValue());
+        }
+        */
+        /*LinkedHashMap<Integer, String> linkedHashMap = new LinkedHashMap<>();
+        linkedHashMap.put(1, "LHM value 1");
+        linkedHashMap.put(2, "LHM value 2");
+        linkedHashMap.put(3, "LHM value 3");
+        linkedHashMap.put(1, "LHM value 4");
+
+        linkedHashMap.put(null, null);
+
+        for (Map.Entry entry: linkedHashMap.entrySet()) {
+            System.out.println("key " + entry.getKey() +" Value " + entry.getValue());
+        }
+*/
+        /*TreeMap<String , String> treeMap = new TreeMap<>();
+        treeMap.put("a", "Tree map 1");
+        treeMap.put("b", "Tree map 2");
+        treeMap.put("c", "Tree map 3");
+        treeMap.put("d", "Tree map 4");
+        treeMap.put("e" , null);
+
+        for (Map.Entry entry : treeMap.entrySet()) {
+            System.out.println("key " + entry.getKey() + " value " + entry.getValue());
+        }*/
+
+        Hashtable<Integer, String> hashtable = new Hashtable<>();
+
+        hashtable.put(1,"a");
+        hashtable.put(2,"b");
+        hashtable.put(3,"c");
+        hashtable.put(4,"d");
+        hashtable.put(5, "2");
+
+        System.out.println(" ----------- " +hashtable.containsValue("b"));
+        for (Map.Entry entry: hashtable.entrySet()) {
+            System.out.println(entry.getKey() +"          " + entry.getValue());
         }
 
     }
