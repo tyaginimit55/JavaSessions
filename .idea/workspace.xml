@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a269aeb-afa0-4b2e-83d5-3aa8ba6d195b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/Lambda/Drawable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/Lambda/LambdaExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/StreamsExample/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learning/StreamsExample/ProductStreamExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/collections/CollectionsPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/collections/CollectionsPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learning/StreamsExample/ProductStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learning/StreamsExample/ProductStreamExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +129,8 @@
       <workItem from="1692633831357" duration="4927000" />
       <workItem from="1692717690480" duration="6217000" />
       <workItem from="1692808567212" duration="5247000" />
-      <workItem from="1692895303703" duration="4626000" />
+      <workItem from="1692895303703" duration="5441000" />
+      <workItem from="1692975516844" duration="5457000" />
     </task>
     <servers />
   </component>
@@ -150,5 +147,31 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learning/StreamsExample/ProductStreamExample.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learning/StreamsExample/ProductStreamExample.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learning/StreamsExample/ProductStreamExample.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/learning/StreamsExample/ProductStreamExample.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
